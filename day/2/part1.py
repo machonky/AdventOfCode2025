@@ -6,7 +6,7 @@ ID_RANGE_RE = re.compile(r",?(\d+)\-(\d+)")
 #ranges = [m.groups() for m in ID_RANGE_RE.finditer(id_ranges)]
 #print(ranges)
 
-#open(0) -> powershell: Get-Content input.txt | python part1.py, bash: python part1.py < input.txt
+##open(0) -> powershell: Get-Content input.txt | python part1.py, bash: python part1.py < input.txt
 id_ranges = open(0).readline().strip()
 ranges = [m.groups() for m in ID_RANGE_RE.finditer(id_ranges)]
 
@@ -15,6 +15,7 @@ for r_lower, r_upper in ranges:
     print(f"{r_lower}-{r_upper}")
     for id in range(int(r_lower), int(r_upper) + 1):
         idstr = str(id)
+        #print(f"    c:'{idstr}'")
         id_length = len(idstr)
         split, splat = divmod(id_length,2)
         if (splat == 0):
