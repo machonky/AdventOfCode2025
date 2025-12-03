@@ -25,8 +25,9 @@ for r_lower, r_upper in ranges:
             trailing = idstr[-split:]
             #print(f"    t:{trailing}")
             if (leading == trailing):
-                print(f"    c:{idstr} split:{split}")
-                print(f"****{idstr}")
+                #print(f"    c:{idstr} split:{split}")
+                #print(f"****{idstr}")
                 invalid_ids.append(int(idstr))
+
 total = sum(invalid_ids)
-print(total)
+print(f"Total: {total}")

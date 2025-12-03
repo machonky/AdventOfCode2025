@@ -34,8 +34,8 @@ for r_lower, r_upper in ranges:
                 len(idstr)//len(leading) == len(positions) and \
                 len(idstr)%len(leading) == 0:
                 #print(f"        {positions}")
-                print(f"****{idstr}") # testing shows 3 successful results for 222222 (2,22,222) so we must store id's in a set
+                #print(f"****{idstr}") # testing shows 3 successful results for 222222 (2,22,222) so we must store id's in a set
                 invalid_ids.add(int(idstr))
             
 total = sum(invalid_ids)
-print(total)
+print(f"Total: {total}")
