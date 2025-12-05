@@ -24,7 +24,7 @@ def forklift_check(warehouseData, rowIndex, columnIndex):
     if (rowIndex - 1) >= 0:
         rollCount += check_row(warehouseData, rowIndex - 1, rowIndex, columnIndex)
     #check current row
-    rollCount += check_row(warehouseData, rowIndex, rowIndex, colIndex)
+    rollCount += check_row(warehouseData, rowIndex, rowIndex, columnIndex)
     #check row below (if possible)
     if (rowIndex + 1) <= (len(warehouseData) - 1):
         rollCount += check_row(warehouseData, rowIndex + 1, rowIndex, columnIndex)
@@ -37,7 +37,7 @@ with open(0) as f:
     for rowIndex in range(0, len(warehouseData)):
         #debugRow = ''
         for colIndex in range(0, len(warehouseData[0])):
-            testChar = '@' if warehouseData[rowIndex][colIndex] == 1 else '.'
+            #testChar = '@' if warehouseData[rowIndex][colIndex] == 1 else '.'
             if (warehouseData[rowIndex][colIndex] == 1): # only do the check if there is a roll there
                 #if forklift_check(warehouseData, rowIndex, colIndex):
                 #    testChar = 'x'
