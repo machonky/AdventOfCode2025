@@ -14,3 +14,6 @@
 
 ### Day 5: Cafeteria
 - [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/5)
+
+### Day 6: Trash Compactor
+- In progress
