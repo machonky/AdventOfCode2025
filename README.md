@@ -11,3 +11,6 @@
 
 ### Day 4: Printing Department
 - [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/4)
+
+### Day 5: Cafeteria
+- [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/5)
