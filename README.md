@@ -16,4 +16,7 @@
 - [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/5)
 
 ### Day 6: Trash Compactor
-- In progress
+- [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/6)
+
+### Day 7: Laboratories
+- [In Progress](https://github.com/machonky/AdventOfCode2025/tree/main/day/7)
