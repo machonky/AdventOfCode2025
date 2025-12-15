@@ -20,3 +20,6 @@
 
 ### Day 7: Laboratories
 - [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/7)
+
+### Day 8: Playground
+- [Started](https://github.com/machonky/AdventOfCode2025/tree/main/day/8)
