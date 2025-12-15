@@ -19,4 +19,4 @@
 - [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/6)
 
 ### Day 7: Laboratories
-- [In Progress](https://github.com/machonky/AdventOfCode2025/tree/main/day/7)
+- [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/7)
