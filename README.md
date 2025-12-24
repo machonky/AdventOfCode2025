@@ -26,4 +26,5 @@
   - Very tough. Required understanding of DSU Algo's
 
 ### Day 9: Movie Theater
-- [In Progress](https://github.com/machonky/AdventOfCode2025/tree/main/day/9)
+- [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/9)
+  - Geometry calculations helped using shapely library
