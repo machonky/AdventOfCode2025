@@ -24,3 +24,6 @@
 ### Day 8: Playground
 - [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/8)
   - Very tough. Required understanding of DSU Algo's
+
+### Day 9: Movie Theater
+- [In Progress](https://github.com/machonky/AdventOfCode2025/tree/main/day/9)
