@@ -30,4 +30,5 @@
   - Geometry calculations helped using shapely library
 
 ### Day 10: Factory
-- [Incomplete](https://github.com/machonky/AdventOfCode2025/tree/main/day/10)
+- [Complete](https://github.com/machonky/AdventOfCode2025/tree/main/day/10)
+  - Required use of z3-solver for Integer Linear Programming.
